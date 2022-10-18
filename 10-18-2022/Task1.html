@@ -6,30 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookies</title>
 </head>
-<body style= "background-color: rgb(240, 247, 240)">
+<body>
     <div text-align: right>
       <h1>What Are Cookies</h1>
       <hr>
-      <span>It is within common practice with almost all professional websites that this site uses <span style="color: burlywood"> cookies </span>which are tiny files that are downloaded to your computer, to improve your experience. This page will describe what information they gather, how we use it and why we sometimes need to store these cookies. Signup to our newsletter for more information regarding those <span style="color :burlywood">  cookies </span> </span>
+      <span>It is within common practice with almost all professional websites that this site uses <span> cookies </span>which are tiny files that are downloaded to your computer, to improve your experience. This page will describe what information they gather, how we use it and why we sometimes need to store these cookies. Signup to our newsletter for more information regarding those <span> cookies </span> </span>
       <br>
       <img src="cookies.jpg" alt="cookies" width="500ppx">
 
     </div>
     <div>
-      <form>
+      <form id="Form1">
       <label for="Email">Email</label><br>
       <input type="email">
       <br>
       <label for="password">Password</label><br>
       <input type="password">
       <br>
-      <label for="Consent">Do you consent using your information to improve this website?</label>
+      <label for="Consent">Do you consent using your information to improve this website?</label><br>
       <input type="checkbox">Yes <input type="checkbox"> No
-
-
-
-
+      <br>
+      <label for="Free days">Days to recive new mail</label> <br>
+      <input type="radio">Sunday <input type="radio">Monday <input type="radio">Tuesday <input type="radio">Wednesday <input type="radio">Thursday <input type="radio">Friday <input type="radio">Saturday <br>
+      <label for="Location">Province</label><br>
+      <select name="Province" id="Location">
+        <option value="Irbid">Irbid</option>
+        <option value="Ramtha">Ramtha</option>
+        <option value="Amman">Amman</option>
+        <option value="Aqaba">Aqaba</option>
+        <option value="Jerash">Jerash</option>
+        <option value="Ma'an">Ma'an</option>
+        <option value="Salt">Salt</option>
+      </select>
+    </div>
       </form>
+      <div>
+     For complaints
+      <br>
+      <textarea form="form1" name="Complaints">Enter your text here</textarea><br>
+      <input type="button" value="Submit">
+      </div>
 
 
 
