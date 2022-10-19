@@ -1,0 +1,19 @@
+.Headers{
+   font-size:30px; background-color: cornflowerblue; color: rgb(4, 67, 67); font-weight: bold;
+}
+.UID{
+    color: cornflowerblue;
+}
+#Table1{
+    border-collapse: collapse;
+
+}
+#Course{
+    padding-left: 180;
+}
+.Numbers{
+    color: rgb(0, 88, 252);
+}
+#BigFont {
+    font-family: sans-serif;
+}
