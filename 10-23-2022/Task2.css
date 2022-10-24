@@ -1,0 +1,23 @@
+#Body {
+    background-color: bisque;
+}
+.Div {
+    border-width:3px;
+    border-style: double;
+    background-color: rgb(252, 252, 252);
+}
+.HighlightedBrown {
+    background-color:bisque ;
+    font-weight: bold;
+}
+.HighlightedYellow {
+    background-color:yellow;
+    font-weight: bold;
+}
+.Div2  {
+    padding:10px;
+    border-width:3px;
+    border-style: dotted;
+    background-color: rgb(252, 252, 252);
+    color:red;
+}
