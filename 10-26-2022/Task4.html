@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+  body,html {
+    width: 100%;
+    height: 100%;
+  }
+.navbar-brand {
+    color: rgb(127, 123, 123);
+}
+.container-fluid {
+  height: 50%;
+  width: 100%;
+  background-color: aliceblue;
+  padding-top: 40px;
+  padding-left: 120px;
+}
+.row {
+  padding: 50px;
+  padding-top: 100px;
+}
+.card {
+  border:none;
+}
+.btn-outline-black {
+  border: 1px solid;
+}
+#alert {
+  padding-top: 20px;
+}
+
+
+</style>
+</head>
+<body>
+    <nav class="navbar" style="background-color:rgb(85, 81, 81)">
+        <div class="container">
+          <a class="navbar-brand">Bootstrap-mini-project</a>
+          <a class="navbar-brand">Home</a>
+          <button class="btn btn-dark btn-lg">About</button>
+          <a class="navbar-brand">Contact</a>
+          <a class="nav-link dropdown-toggle text-white-50" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+          <form class="d-flex" role="Login">
+            <input class="form-control me-2" type="Text" placeholder="Login" aria-label="Password">
+            <input class="form-control me-2" type="password" placeholder="Password" aria-label="Password">
+            <button class="btn btn-success" type="submit">Login</button>
+          </form>
+        </div>
+      </nav>
+<div class="container-fluid">
+        <p class="h1">Hello, World!</p> 
+        <br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, molestias.</p>
+        <br>
+        <button class="btn btn-primary">Learn More</button>
+
+</div>
+<div class="container" id="alert">
+<div class="alert alert-warning" role="alert">
+  Warning! your subscription is running out please pay us thank yoou </div>
+</div>
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">Heading</h3>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, amet. Labore, fuga. Adipisci perspiciatis laudantium tenetur voluptas eos dolorem repellendus</p>
+        <button class="btn btn-outline-black">View Details</button>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Heading</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, amet. Labore, fuga. Adipisci perspiciatis laudantium tenetur voluptas eos dolorem repellendus</p>
+          <button class="btn btn-outline-black">View Details</button>
+        </div>
+      </div>
+    </div>
+    
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Heading</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, amet. Labore, fuga. Adipisci perspiciatis laudantium tenetur voluptas eos dolorem repellendus</p>
+            <button class="btn btn-outline-black">View Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
