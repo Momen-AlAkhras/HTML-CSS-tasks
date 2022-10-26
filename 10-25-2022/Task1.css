@@ -1,4 +1,15 @@
-
+img {
+    height: 300px;
+    width: 400px;
+    
+}
+.Container {
+  padding-left: 20px;
+  height: 725px;
+}
+.Container div {
+    display: inline-block;
+}
 @media only screen and (max-width:480px) {
     img {
         height: 150px;
@@ -16,15 +27,14 @@
     
 }
 
-@media only screen and (min-width:481px) and (max-width:769) {
+@media only screen and (min-width:481px) and (max-width:769px) {
     img {
-        height: 150px;
-        width: 100px;
-        margin-left: 200px;
-        margin: 10px;
+        height: 300px;
+        width: 350px;
+        
     }
     .Container {
-      padding: 20px;
+      padding-left: 20px;
       height: 725px;
     }
     .Container div {
@@ -32,16 +42,5 @@
     }
     
 }
-@media only screen and (min-width:770) and (max-width:769){  
-img {
-    height: 300px;
-    width: 400px;
-    margin-left: 200px;
-    margin: 25px;
-}
-.Container {
-  padding: 20px;
-  height: 725px;
-}
 
-}
+
