@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Task3
+        </title>
+        <style>
+                                  html, body {
+  width: 100%;
+  height: 100%;
+ 
+}
+#flex-container{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   align-items:center;
+ 
+  
+}
+#flex-container  div {
+   
+text-align: center;
+    width: 50%;
+    height: 100%;
+    font-size: 50px;
+    flex-wrap: wrap;
+  
+  }
+.flex-divs{
+    display: flex;
+  
+    justify-content: center;
+   align-items:center;
+}
+@media screen and (min-device-width: 0px) and (max-device-width : 480px){
+    #flex-container  {flex-direction: column; width: 100%;
+    height:100%;}
+    #flex-container  div {width: 100%;}
+}
+
+        </style>
+    </head>
+    <body>
+<div id="flex-container">
+    <div class= "flex-divs" style="background-color:Blue ;">
+First part
+    </div>
+    <div class= "flex-divs" style="background-color: red;">
+second part
+    </div>
+
+</div>
+
+    </body>
+</html
